@@ -1,0 +1,33 @@
+.wrapper.subscript {
+  display: flex;
+  //padding-top: 180px;
+
+  justify-content: space-between;
+}
+.footer-name {
+  padding-top: 42px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+  font-size: 24px;
+}
+.col {
+  width: 50%;
+}
+.col.prod {
+  width: 50%;
+  padding-top: 80px;
+  padding-left: 620px;
+}
+.subs {
+  color: rgb(104, 107, 128);
+  text-transform: capitalize;
+  display: inline;
+  padding-right: 180px;
+}
+.produced {
+  color: rgb(104, 107, 128);
+}
+.caption {
+  padding-top: 52px;
+  text-transform: capitalize;
+}

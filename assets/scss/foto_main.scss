@@ -1,0 +1,83 @@
+.inscript {
+  font-size: 76px;
+  padding-top: 205px;
+  font-weight: 0.1px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #3a3838;
+}
+.descript {
+  padding-top: 21px;
+  font-size: 17px;
+  padding-left: 361px;
+  width: 35%;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 205px;
+}
+
+.col {
+  width: 30%;
+}
+.col.center {
+  width: 40%;
+}
+
+.user-video {
+  padding-top: 25px;
+  padding-left: 57px;
+}
+.user-text {
+  text-transform: capitalize;
+  font-size: 37px;
+  padding-left: 42px;
+}
+.right-first {
+  padding-top: 25px;
+  padding-left: 42px;
+  padding-bottom: 25px;
+}
+.right-second {
+  padding-top: 5px;
+  padding-left: 42px;
+}
+.rev {
+  padding-left: 12px;
+  text-transform: capitalize;
+  padding-top: 1px;
+  font-size: 36px;
+  color: #3a3838;
+}
+.review-first,
+.review-second {
+  text-align: center;
+  line-height: 2;
+  font-size: 18px;
+  padding-top: 7px;
+  padding-right: 179px;
+  color: rgb(104, 107, 128);
+}
+.comment-symbol {
+  position: absolute;
+  font-family: Times, serif;
+  font-style: italic;
+  color: rgb(222, 223, 231);
+  quotes: "\201c""";
+  font-weight: bold;
+  font-size: 80px;
+}
+.rev-text {
+  // padding-left: 29px;  ?
+}
+
+.steve {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: bold;
+  color: #3a3838;
+}
