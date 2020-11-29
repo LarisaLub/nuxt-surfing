@@ -1,6 +1,6 @@
 <template>
       <footer class="wrapper subscript">
-        <div class="col">
+        <div class="col left">
           <h5 class="footer-name">beach surfing</h5>
           <p class="subs">copyright @ 2018 all rights reserved.</p>
         </div>

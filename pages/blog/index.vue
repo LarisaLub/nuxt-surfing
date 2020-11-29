@@ -1,11 +1,10 @@
 <template>
     <section>
-        <h1>Blog</h1>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <img src=""/>
+        <!-- <h1>{{pageTitle}}</h1>
+        <h4>Posts:</h4>  -->
         <ul>
-            <li v-for="post of 5" :key="post">
-                <a href="#" @click.prevent="openPost(post)"> Post {{post}} </a>
+            <li v-for="post of posts" :key="post.id">
+                <a href="#" @click.prevent="openPost(post)"> {{post.id}} </a>
             </li>
         </ul>
     </section>
@@ -13,14 +12,33 @@
 
 <script>
 export default {
-    methods: {
-        openPost(post) {
-            this.$router.push('/blog/'+post)
+    async fetch({store}) {
+  if (store.getters['posts/posts'].length === 0) {
+      await store.dispatch('posts/fetch')
+  }
+    },
+   
+    data: () =>({
+        pageTitle: 'blog'
+    }),
+    computed: {
+        posts() {
+            return this.$store.getters['posts/posts']
         }
     },
-    layout: 'empty'
+  
+    methods: {
+        openPost(post) {
+            this.$router.push('/blog/' + post.id)
+        }
+        },
+        layout: 'empty'
 }
 </script>
+
+
+
+
 
 <style scoped>
 

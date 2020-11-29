@@ -1,6 +1,6 @@
 .wrapper.subscript {
   display: flex;
-  //padding-top: 180px;
+  padding: 0 50px;
 
   justify-content: space-between;
 }
@@ -16,13 +16,15 @@
 .col.prod {
   width: 50%;
   padding-top: 80px;
-  padding-left: 620px;
+  text-align: right;
+}
+.col.left {
+  text-align: left;
 }
 .subs {
   color: rgb(104, 107, 128);
   text-transform: capitalize;
   display: inline;
-  padding-right: 180px;
 }
 .produced {
   color: rgb(104, 107, 128);

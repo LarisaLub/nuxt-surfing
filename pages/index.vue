@@ -9,6 +9,7 @@
     </p>
     <div class="box">
       <div class="col">
+        <div class="reviews">
          <div class="review-first">
             <h4 class="rev"><q class="comment-symbol"></q>recent reviews</h4>  
               <p class="rev-text">Lorem ipsum dolor sit amet, conssectetur adipising elit, sed incididunt ut labore et dolore magn.</p>
@@ -21,6 +22,7 @@
                 <p class ="steve">- david collum </p>
                 <hr>
                </div>
+        </div>
     </div>
     <div class="col center">
        <img src="~assets/img/1.png" />
@@ -54,11 +56,11 @@
        </div>
      </div>
       <div class="nav-arrow">
-        <button class="slick-prev slick-arrow" aria-label="Previous"> <svg xmlns="http://www.w3.org/2000/svg"
+        <button class="nav-arrow__slick-prev" aria-label="Previous"> <svg xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 34 34" width="53%" height="53%">
           <path d="M0 0h24v24H0V0z" fill="none" />
           <path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z" /></svg></button>
-       <button class="slick-next slick-arrow" aria-label="next"><svg xmlns="http://www.w3.org/2000/svg"
+       <button class="nav-arrow__slick-next" aria-label="next"><svg xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 34 34" width="53%" height="53%">
           <path d="M0 0h24v24H0V0z" fill="none" />
           <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" /></svg></button>
