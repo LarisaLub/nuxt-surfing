@@ -10,15 +10,15 @@
 .slaider__container-slaider {
   display: flex;
   justify-content: space-between;
-  //padding-top: 20px;
 }
 .label.slaider {
   font-weight: normal;
   color: #3a3838;
   text-transform: capitalize;
-  font-size: 54px;
+  font-size: 56px;
   text-align: center;
-  padding-top: 215px;
+  padding-top: 193px;
+  letter-spacing: 0.3px;
 }
 
 .first-foto,
@@ -29,7 +29,8 @@
 .name {
   text-transform: capitalize;
   text-align: center;
-  padding-top: 32px;
+  padding-top: 28px;
+  letter-spacing: 0.4px;
 
   font-size: 33px;
 }
@@ -42,39 +43,38 @@
 }
 
 .nav-arrow__nav-arrow {
-  width: 100%;
   top: 350px;
 }
 .nav-arrow__slick-next,
 .nav-arrow__slick-prev {
-  top: 520px;
+  top: 480px;
   position: absolute;
   z-index: 998;
   cursor: pointer;
   border: none;
   outline: 0;
-  font-size: 3em;
+  font-weight: normal;
   overflow: hidden;
   background: none;
   svg {
-    width: 150px;
-    height: 150px;
+    font-weight: normal;
+    width: 200px;
+    height: 200px;
   }
 }
 .nav-arrow__slick-next {
-  right: 85px;
+  right: 38px;
 }
 
 .nav-arrow__slick-prev {
-  left: 85px;
+  left: 100px;
 }
 .navbar {
   text-align: center;
   padding: 45px 0;
 }
 .navbar .circle {
-  margin-right: 10px;
-  margin-left: 2px;
+  margin-right: 14px;
   height: 10px;
   width: 10px;
   border-radius: 50%;

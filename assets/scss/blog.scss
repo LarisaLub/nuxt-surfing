@@ -3,14 +3,17 @@
 }
 .blog-row.revers {
   padding-top: 185px;
-  padding-right: 10px;
+  padding-right: 5px;
 }
-.right-discription {
+.col.right-discription {
   padding-left: 80px;
 }
 
 .col {
   width: 50%;
+}
+.col.left {
+  padding-left: 62px;
 }
 .label {
   font-weight: normal;
@@ -20,26 +23,28 @@
   text-align: center;
   padding-top: 140px;
   margin-bottom: 86px;
+  letter-spacing: 0.1px;
 }
 .discription {
-  line-height: 2;
+  line-height: 1.8;
   font-size: 18px;
   color: rgb(104, 107, 128);
-  padding-top: 10px;
-  font-size: 17px;
-  padding-bottom: 45px;
-  width: 380px;
+  padding-top: 8px;
+  font-size: 18px;
+  padding-bottom: 50px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  padding-right: 40px;
 }
 .snap {
-  margin-right: 320px;
+  margin-right: 330px;
   background: none;
   font-size: 16px;
   font-weight: bold;
   width: 142px;
   height: 55px;
   color: rgb(104, 107, 128);
-  padding-left: 2px;
-  line-height: 57px;
+  line-height: 59px;
   border: 1px solid rgb(192, 192, 197);
 }
 .title {

@@ -19,15 +19,14 @@
               <p class ="steve">- steve woz</p>
               <hr>
           </div>
-               
-               <div class="review">
-                <p class="rev-text">
-                  <q class="comment-symbol"></q>
-                  Lorem ipsum dolor sit amet, conssectetur adipising elit, sed incididunt ut labore et dolore magn.
-                </p>
-                <p class ="steve">- david collum </p>
-                <hr class="mini-line">
-               </div>
+          <div class="review">
+            <p class="rev-text">
+              <q class="comment-symbol"></q>
+              Lorem ipsum dolor sit amet, conssectetur adipising elit, sed incididunt ut labore et dolore magn.
+            </p>
+            <p class ="steve">- david collum </p>
+            <hr class="mini-line">
+          </div>
         </div>
     </div>
     <div class="col center">
@@ -36,8 +35,8 @@
      <div class="col"> 
        <div class="user-video">
           <p class="user-text">user videos </p>
-            <img class="right-first" src="~assets/img/1_1.png" />
-            <img class="right-second" src="~assets/img/1_2.png" />
+            <img class="right" src="~assets/img/1_1.png" />
+            <img class="right second-photo" src="~assets/img/1_2.png" />
        </div>
      </div>
    </div>
@@ -75,15 +74,10 @@
         <span class="circle"> </span>
         <span class="circle active"> </span>
         <span class="circle"> </span>
-
       </div>
-        
- </div>
- 
-
-   <div class="wrapper">
-
-      <h3 class="label">Recent Blogs by User</h3>
+    </div>
+ <div class="wrapper">
+        <h3 class="label">Recent Blogs by User</h3>
         <div class="blog-row">
           <div class="col">
             <img src="~assets/img/blog_user1.png" />
@@ -102,7 +96,7 @@
             incididunt ut labore et dolare magna alique. Ut enim ad minim veniam.</p>
             <button class="snap">Read More</button>
           </div>
-          <div class="col">
+          <div class="col left">
             <img src="~assets/img/blog_user2.png" />
           </div>
         </div>

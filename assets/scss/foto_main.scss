@@ -5,12 +5,14 @@
   text-align: center;
   text-transform: capitalize;
   color: #3a3838;
+  letter-spacing: 0px;
 }
 .descript {
   padding-top: 21px;
   font-size: 17px;
-  padding-left: 481px;
-  width: 38%;
+  padding-left: 455px;
+  width: 40%;
+  letter-spacing: 0.5px;
   text-align: center;
   line-height: 1.8;
 }
@@ -24,22 +26,26 @@
 .review {
   line-height: 1.8;
   font-size: 18px;
-  padding-top: 18px;
-  padding-right: 179px;
+  padding-top: 38px;
+  padding-right: 109px;
   color: rgb(104, 107, 128);
   position: relative;
 }
 
 .rev {
-  padding-left: 22px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  font-weight: normal;
+  padding-right: 92px;
+  //padding-bottom: 0px;
   text-transform: capitalize;
   font-size: 40px;
   color: #3a3838;
 }
 .rev-text {
-  padding-bottom: 11px;
+  padding-left: 55px;
+  padding-bottom: 7px;
   text-align: left;
+  letter-spacing: 0.5px;
 }
 
 .steve {
@@ -47,14 +53,15 @@
   font-size: 18px;
   font-weight: bold;
   color: #585656;
-  padding-right: 80px;
+  padding-right: 140px;
 }
 .mini-line {
   color: #bdb4b4;
+  margin-bottom: 22px;
 }
 .comment-symbol {
   top: 0;
-  left: -28px;
+  left: 27px;
   position: absolute;
   font-family: Times, serif;
   font-style: italic;
@@ -81,13 +88,14 @@
 .user-text {
   text-transform: capitalize;
   font-size: 37px;
+  padding-right: 40px;
+  letter-spacing: 0.3px;
 }
-.right-first {
-  padding-top: 25px;
-  padding-left: 42px;
+.right {
+  padding-top: 22px;
+  padding-left: 52px;
   padding-bottom: 25px;
 }
-.right-second {
-  padding-top: 5px;
-  padding-left: 42px;
+.right.second-photo {
+  padding-top: 7px;
 }
