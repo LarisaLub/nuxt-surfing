@@ -1,7 +1,6 @@
 .enroll-button {
   padding-left: 685px;
   padding-bottom: 148px;
-  padding-top: 0px;
 }
 .label.interes {
   font-weight: normal;
@@ -20,4 +19,30 @@
   line-height: 57px;
   border: 1px solid rgb(1, 1, 14);
   background: none;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 415px) {
+  .enroll-button {
+    padding-left: 55px;
+    padding-bottom: 42px;
+    padding-top: 0px;
+  }
+  .label.interes {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 45px;
+    margin-bottom: 32px;
+  }
+
+  .snap.entr {
+    width: 80px;
+    height: 13px;
+    line-height: 13px;
+  }
 }

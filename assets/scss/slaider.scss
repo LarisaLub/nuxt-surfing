@@ -85,3 +85,56 @@
 .navbar .circle.active {
   background: black;
 }
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 415px) {
+  .slaider__container-slaider {
+    flex-flow: column-reverse wrap;
+  }
+  .col {
+    width: 100%;
+    text-align: center;
+  }
+
+  .slaider {
+    padding: 0 50px;
+    position: relative;
+  }
+
+  .label.slaider {
+    font-size: 26px;
+    text-align: center;
+    padding-top: 33px;
+    letter-spacing: 0.2px;
+  }
+
+  .nav-arrow__slick-next,
+  .nav-arrow__slick-prev {
+    display: none;
+  }
+  .navbar .circle {
+    display: none;
+  }
+  .name {
+    padding-top: 16px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    display: inline;
+    font-size: 16px;
+  }
+
+  .quantities {
+    font-size: 13px;
+    padding-top: 5px;
+  }
+  .first-foto,
+  .second-foto,
+  .third-foto {
+    width: 300px;
+  }
+}

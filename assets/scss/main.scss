@@ -4,7 +4,7 @@
 }
 
 body {
-  width: 1800px;
+  //width: 1800px;
   box-sizing: content-box;
 }
 .container {
@@ -14,4 +14,38 @@ body {
 }
 .wrapper {
   padding: 0 245px;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+@media (max-width: 992px) {
+}
+
+@media (max-width: 767px) {
+  body {
+    width: 100%;
+    box-sizing: content-box;
+  }
+  .wrapper {
+    padding: 0 75px;
+  }
+  .container {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 415px) {
+  body {
+    box-sizing: content-box;
+  }
+  .container {
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  .wrapper {
+    padding: 0 45px;
+  }
 }

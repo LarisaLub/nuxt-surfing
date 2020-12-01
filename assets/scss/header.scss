@@ -33,3 +33,52 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .header {
+    //width: 50%;
+    position: relative;
+    padding-left: 21px;
+
+    .menu {
+      padding-top: 50px;
+    }
+    .header__logo {
+      top: 15px;
+      left: 100px;
+      position: absolute;
+    }
+    .menu__nav-link {
+      padding-right: 35px;
+      text-transform: uppercase;
+      font-family: helvetica, arial, sans-serif;
+      font-size: 10px;
+      text-decoration: none;
+      font-style: normal;
+      line-height: 10px;
+      text-align: center;
+      color: rgb(172, 173, 180);
+    }
+  }
+}
+@media (max-width: 767px) {
+}
+
+@media (max-width: 415px) {
+  .header {
+    //width: 50%;
+    position: relative;
+    padding-left: 21px;
+
+    .menu {
+      padding-top: 50px;
+    }
+    .header__logo {
+      top: 35px;
+      left: 50px;
+    }
+    .menu__nav-link {
+      display: none;
+    }
+  }
+}
