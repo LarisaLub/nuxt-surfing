@@ -1,11 +1,15 @@
 <template>
     <section>
-        <h1>{{post.title}} </h1>
-        <h3>{{post.body}}</h3>
         <h4> №: {{post.id}}</h4> 
+        <hr>
+        <h1>{{post.title}} </h1>
+        
+        <h3>{{post.body}}</h3>
+        
 
-        <li> 
+       <li> 
             <a href="/blog">Blog</a>
+
         </li>
     </section>
 </template>

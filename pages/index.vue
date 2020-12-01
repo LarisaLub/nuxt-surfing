@@ -10,22 +10,28 @@
     <div class="box">
       <div class="col">
         <div class="reviews">
-         <div class="review-first">
-            <h4 class="rev"><q class="comment-symbol"></q>recent reviews</h4>  
-              <p class="rev-text">Lorem ipsum dolor sit amet, conssectetur adipising elit, sed incididunt ut labore et dolore magn.</p>
+          <h4 class="rev">recent reviews</h4>  
+          <div class="review">
+              <p class="rev-text">
+                <q class="comment-symbol"></q>
+                Lorem ipsum dolor sit amet, conssectetur adipising elit, sed incididunt ut labore et dolore magn.
+              </p>
               <p class ="steve">- steve woz</p>
               <hr>
-         </div>
-               <q class="comment-symbol"></q>
-               <div class="review-second">
-                <p class="rev-text">Lorem ipsum dolor sit amet, conssectetur adipising elit, sed incididunt ut labore et dolore magn.</p>
+          </div>
+               
+               <div class="review">
+                <p class="rev-text">
+                  <q class="comment-symbol"></q>
+                  Lorem ipsum dolor sit amet, conssectetur adipising elit, sed incididunt ut labore et dolore magn.
+                </p>
                 <p class ="steve">- david collum </p>
-                <hr>
+                <hr class="mini-line">
                </div>
         </div>
     </div>
     <div class="col center">
-       <img src="~assets/img/1.png" />
+       <img class="photo-center" src="~assets/img/1.png" />
     </div>
      <div class="col"> 
        <div class="user-video">
@@ -64,12 +70,20 @@
           viewBox="0 0 34 34" width="53%" height="53%">
           <path d="M0 0h24v24H0V0z" fill="none" />
           <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" /></svg></button>
-    </div>
-        <div class="circles"> </div>
+      </div>
+      <div class="navbar">
+        <span class="circle"> </span>
+        <span class="circle active"> </span>
+        <span class="circle"> </span>
+
+      </div>
+        
  </div>
+ 
 
    <div class="wrapper">
-        <h3 class="label">Recent Blogs by User</h3>
+
+      <h3 class="label">Recent Blogs by User</h3>
         <div class="blog-row">
           <div class="col">
             <img src="~assets/img/blog_user1.png" />

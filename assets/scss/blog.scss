@@ -2,7 +2,8 @@
   display: flex;
 }
 .blog-row.revers {
-  padding-top: 190px;
+  padding-top: 185px;
+  padding-right: 10px;
 }
 .right-discription {
   padding-left: 80px;
@@ -17,7 +18,7 @@
   text-transform: capitalize;
   font-size: 54px;
   text-align: center;
-  padding-top: 245px;
+  padding-top: 140px;
   margin-bottom: 86px;
 }
 .discription {
@@ -30,13 +31,14 @@
   width: 380px;
 }
 .snap {
+  margin-right: 320px;
   background: none;
   font-size: 16px;
+  font-weight: bold;
   width: 142px;
   height: 55px;
   color: rgb(104, 107, 128);
-  padding-top: 2px;
-  padding-left: 10px;
+  padding-left: 2px;
   line-height: 57px;
   border: 1px solid rgb(192, 192, 197);
 }

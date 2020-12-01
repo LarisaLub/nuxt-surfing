@@ -1,18 +1,21 @@
 .header {
   width: 100%;
+  position: relative;
+  padding-left: 21px;
 
   .menu {
     display: flex;
     list-style: none;
     justify-content: flex-end;
-    padding-right: 57px;
+    padding-top: 170px;
   }
   .header__logo {
-    margin-top: 115px;
-    padding-left: 12px;
+    top: 141px;
+    left: 40px;
+    position: absolute;
   }
   .menu__nav-link {
-    padding-right: 82px;
+    padding-right: 75px;
     text-transform: uppercase;
     font-family: helvetica, arial, sans-serif;
     font-size: 15px;

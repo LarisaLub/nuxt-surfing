@@ -1,10 +1,10 @@
 <template>
     <section>
-        <!-- <h1>{{pageTitle}}</h1>
-        <h4>Posts:</h4>  -->
+         <h1>{{pageTitle}}</h1>
+        <!-- <h4>Posts:</h4>  -->
         <ul>
             <li v-for="post of posts" :key="post.id">
-                <a href="#" @click.prevent="openPost(post)"> {{post.id}} </a>
+                <a href="#" @click.prevent="openPost(post)"> {{`${post.id}. ${post.title}`}} </a>
             </li>
         </ul>
     </section>
@@ -13,13 +13,14 @@
 <script>
 export default {
     async fetch({store}) {
+        
   if (store.getters['posts/posts'].length === 0) {
       await store.dispatch('posts/fetch')
   }
     },
    
     data: () =>({
-        pageTitle: 'blog'
+        pageTitle: 'Blog'
     }),
     computed: {
         posts() {

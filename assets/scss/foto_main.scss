@@ -1,6 +1,6 @@
 .inscript {
   font-size: 76px;
-  padding-top: 205px;
+  padding-top: 200px;
   font-weight: 0.1px;
   text-align: center;
   text-transform: capitalize;
@@ -9,8 +9,8 @@
 .descript {
   padding-top: 21px;
   font-size: 17px;
-  padding-left: 361px;
-  width: 35%;
+  padding-left: 481px;
+  width: 38%;
   text-align: center;
   line-height: 1.8;
 }
@@ -20,8 +20,48 @@
   justify-content: space-between;
   padding-top: 205px;
 }
-.reviews {
-  padding-left: 30px;
+
+.review {
+  line-height: 1.8;
+  font-size: 18px;
+  padding-top: 18px;
+  padding-right: 179px;
+  color: rgb(104, 107, 128);
+  position: relative;
+}
+
+.rev {
+  padding-left: 22px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+  font-size: 40px;
+  color: #3a3838;
+}
+.rev-text {
+  padding-bottom: 11px;
+  text-align: left;
+}
+
+.steve {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: bold;
+  color: #585656;
+  padding-right: 80px;
+}
+.mini-line {
+  color: #bdb4b4;
+}
+.comment-symbol {
+  top: 0;
+  left: -28px;
+  position: absolute;
+  font-family: Times, serif;
+  font-style: italic;
+  color: rgb(222, 223, 231);
+  quotes: "\201c""";
+  font-weight: bold;
+  font-size: 80px;
 }
 
 .col {
@@ -31,14 +71,16 @@
   width: 40%;
 }
 
+.photo-center {
+  padding-right: 83px;
+}
 .user-video {
   padding-top: 25px;
-  padding-left: 57px;
+  padding-left: 4px;
 }
 .user-text {
   text-transform: capitalize;
   font-size: 37px;
-  padding-left: 42px;
 }
 .right-first {
   padding-top: 25px;
@@ -48,39 +90,4 @@
 .right-second {
   padding-top: 5px;
   padding-left: 42px;
-}
-.rev {
-  padding-left: 12px;
-  text-transform: capitalize;
-  padding-top: 1px;
-  font-size: 36px;
-  color: #3a3838;
-}
-.review-first,
-.review-second {
-  text-align: center;
-  line-height: 2;
-  font-size: 18px;
-  padding-top: 7px;
-  padding-right: 179px;
-  color: rgb(104, 107, 128);
-}
-.comment-symbol {
-  position: absolute;
-  font-family: Times, serif;
-  font-style: italic;
-  color: rgb(222, 223, 231);
-  quotes: "\201c""";
-  font-weight: bold;
-  font-size: 80px;
-}
-.rev-text {
-  padding-right: 40px;
-}
-
-.steve {
-  text-transform: capitalize;
-  font-size: 18px;
-  font-weight: bold;
-  color: #3a3838;
 }
