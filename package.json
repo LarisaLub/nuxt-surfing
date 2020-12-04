@@ -12,7 +12,10 @@
     "@nuxtjs/axios": "^5.12.2",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
-    "nuxt-sass-resources-loader": "^2.0.5"
+    "nuxt-sass-resources-loader": "^2.0.5",
+    "v-owl-carousel": "^1.0.8",
+    "vue-owl-carousel": "^2.0.3",
+    "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {
     "eslint": "^7.14.0",

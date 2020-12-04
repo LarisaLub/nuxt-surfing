@@ -99,30 +99,173 @@
 }
 
 @media (max-width: 1024px) {
+  .inscript {
+    font-size: 50px;
+    padding-top: 70px;
+    text-align: center;
+  }
+  .descript {
+    padding-top: 21px;
+    font-size: 17px;
+    padding-right: 555px;
+    width: 50%;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+  }
+
+  .box {
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review {
+    line-height: 1.8;
+    font-size: 18px;
+    padding-top: 38px;
+    padding-right: 5px;
+  }
+  .reviews {
+    text-align: center;
+  }
+  .rev {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+  }
+  .rev-text {
+    padding-bottom: 7px;
+    text-align: left;
+    letter-spacing: 0.5px;
+  }
+
+  .steve {
+    font-size: 18px;
+  }
+  .mini-line {
+    color: #bdb4b4;
+    margin-bottom: 22px;
+  }
+  .comment-symbol {
+    top: 0;
+    left: 27px;
+    font-size: 60px;
+  }
+  .photo-center {
+    width: 100%;
+    height: auto;
+  }
+  .user-video {
+    padding-top: 25px;
+    padding-left: 4px;
+  }
+  .user-text {
+    font-size: 37px;
+    padding-left: 70px;
+    letter-spacing: 0.3px;
+  }
+  .right {
+    padding-top: 22px;
+    padding-left: 52px;
+    padding-bottom: 25px;
+  }
+  .right.second-photo {
+    padding-top: 7px;
+  }
+}
+
+@media (max-width: 992px) {
+  .inscript {
+    font-size: 40px;
+    padding-top: 65px;
+  }
+  .descript {
+    padding-top: 21px;
+    font-size: 17px;
+    padding-left: 255px;
+    width: 46%;
+    letter-spacing: 0.3px;
+    line-height: 1.1;
+  }
+
+  .box {
+    padding-top: 45px;
+  }
+
+  .review {
+    line-height: 1.5;
+    font-size: 15px;
+    padding-top: 35px;
+    padding-right: 5px;
+  }
+
+  .rev {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .rev-text {
+    padding-bottom: 7px;
+    text-align: left;
+    letter-spacing: 0.5px;
+  }
+
+  .steve {
+    font-size: 10px;
+  }
+  .mini-line {
+    color: #bdb4b4;
+    margin-bottom: 20px;
+  }
+  .comment-symbol {
+    top: 0;
+    left: 27px;
+    font-size: 60px;
+  }
+
+  .user-video {
+    padding-top: 22px;
+    padding-left: 4px;
+  }
+  .user-text {
+    font-size: 35px;
+    padding-left: 70px;
+    letter-spacing: 0.3px;
+  }
+  .right {
+    padding-top: 22px;
+    padding-left: 52px;
+    padding-bottom: 25px;
+  }
+  .right.second-photo {
+    padding-top: 7px;
+  }
 }
 
 @media (max-width: 767px) {
   .inscript {
-    font-size: 36px;
-    padding-top: 30px;
+    font-size: 33px;
+    padding-top: 25px;
     padding-right: 30px;
   }
-  .col {
-    width: 100%;
+  .descript {
+    padding-top: 19px;
+    font-size: 15px;
+    padding-left: 205px;
+    width: 30%;
+    letter-spacing: 0.2px;
+    line-height: 1;
   }
-  .col.center {
-    width: 50%;
-  }
-
   .box {
-    flex-flow: column-reverse wrap;
-    padding-top: 55px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
   }
   .review {
     line-height: 1;
     font-size: 12px;
     padding-top: 8px;
-    padding-right: 45px;
+    padding-right: 55px;
   }
 
   .rev {
@@ -141,50 +284,50 @@
     font-size: 8px;
   }
   .mini-line {
-    color: #bdb4b4;
-    margin-bottom: 12px;
+    margin-bottom: 22px;
   }
   .comment-symbol {
     top: 0;
-    left: 27px;
+    left: 12px;
     font-size: 35px;
   }
 }
 
 @media (max-width: 415px) {
   .inscript {
-    font-size: 25px;
+    font-size: 33px;
     padding-top: 25px;
+    padding-right: 30px;
   }
   .descript {
-    padding-top: 21px;
-    font-size: 12px;
-    padding-left: 4px;
-    padding-right: 20px;
-    width: 100%;
-    letter-spacing: 0.1px;
-    text-align: center;
+    padding-top: 19px;
+    font-size: 15px;
+    padding-left: 205px;
+    width: 30%;
+    letter-spacing: 0.2px;
     line-height: 1;
   }
   .box {
-    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
   }
-  .col {
-    width: 100%;
-  }
-
-  .col.center {
-    display: none;
-  }
-  .comment-symbol {
-    top: 0;
-    left: 27px;
-    font-size: 30px;
+  .review {
+    line-height: 1;
+    font-size: 12px;
+    padding-top: 8px;
+    padding-right: 55px;
   }
 
-  .user-text {
+  .rev {
+    padding-top: 10px;
+    padding-right: 12px;
     font-size: 20px;
-    padding-right: 10px;
-    letter-spacing: 0.1px;
+  }
+  .rev-text {
+    display: inline;
+    padding-left: 15px;
+    padding-bottom: 3px;
+    letter-spacing: 0.2px;
   }
 }

@@ -22,9 +22,57 @@
 }
 
 @media (max-width: 1024px) {
+  .enroll-button {
+    padding-left: 400px;
+    padding-bottom: 78px;
+  }
+  .label.interes {
+    font-size: 34px;
+    padding-top: 75px;
+    margin-bottom: 46px;
+  }
+
+  .snap.entr {
+    width: 150px;
+    height: 45px;
+    line-height: 37px;
+  }
+}
+
+@media (max-width: 992px) {
+  .enroll-button {
+    padding-left: 400px;
+    padding-bottom: 78px;
+  }
+  .label.interes {
+    font-size: 30px;
+    padding-top: 75px;
+    margin-bottom: 46px;
+  }
+
+  .snap.entr {
+    width: 120px;
+    height: 35px;
+    line-height: 32px;
+  }
 }
 
 @media (max-width: 767px) {
+  .enroll-button {
+    padding-left: 250px;
+    padding-bottom: 78px;
+  }
+  .label.interes {
+    font-size: 30px;
+    padding-top: 65px;
+    margin-bottom: 44px;
+  }
+
+  .snap.entr {
+    width: 120px;
+    height: 35px;
+    line-height: 32px;
+  }
 }
 
 @media (max-width: 415px) {

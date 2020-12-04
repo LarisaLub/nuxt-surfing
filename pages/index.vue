@@ -44,37 +44,56 @@
   <div class="slaider">
      <h3 class="label slaider">popular instractors</h3>
     <div class="slaider__container-slaider">
-        <div class="col">
+        <carousel :autoplay="false" :dots="true" 
+        :responsive="{0:{items:1,nav:false},600:{items:3,nav:true}}" >
+       
           <img class="first-foto" src="~assets/img/2_1.png" />
           <p class="name">simon adward</p>
           <p class="quantities">5,000 students</p>
-       </div>
-       <div class="col">
+       
+       
           <img class="second-foto" src="~assets/img/2.png" />
           <p class="name">elliana d'soza</p>
           <p class="quantities">4,350 students</p>
-       </div>
-       <div class="col">
+       
+       
           <img class="third-foto" src="~assets/img/3.png" />
           <p class="name">joseph bardon</p>
           <p class="quantities">3,248 students</p>
-       </div>
+       
+       
+          <img class="first-foto" src="~assets/img/2_1.png" />
+          <p class="name">simon adward</p>
+          <p class="quantities">5,000 students</p>
+       
+       
+          <img class="second-foto" src="~assets/img/2.png" />
+          <p class="name">elliana d'soza</p>
+          <p class="quantities">4,350 students</p>
+       
+       
+          <img class="third-foto" src="~assets/img/3.png" />
+          <p class="name">joseph bardon</p>
+          <p class="quantities">3,248 students</p>
+       
+       
+          <img class="first-foto" src="~assets/img/2_1.png" />
+          <p class="name">simon adward</p>
+          <p class="quantities">5,000 students</p>
+       
+       
+          <img class="second-foto" src="~assets/img/2.png" />
+          <p class="name">elliana d'soza</p>
+          <p class="quantities">4,350 students</p>
+       
+       
+          <img class="third-foto" src="~assets/img/3.png" />
+          <p class="name">joseph bardon</p>
+          <p class="quantities">3,248 students</p>
+       
+        </carousel >
      </div>
-      <div class="nav-arrow">
-        <button class="nav-arrow__slick-prev" aria-label="Previous"> <svg xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 34 34" width="53%" height="53%">
-          <path d="M0 0h24v24H0V0z" fill="none" />
-          <path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z" /></svg></button>
-       <button class="nav-arrow__slick-next" aria-label="next"><svg xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 34 34" width="53%" height="53%">
-          <path d="M0 0h24v24H0V0z" fill="none" />
-          <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" /></svg></button>
-      </div>
-      <div class="navbar">
-        <span class="circle"> </span>
-        <span class="circle active"> </span>
-        <span class="circle"> </span>
-      </div>
+    
     </div>
  <div class="wrapper">
         <h3 class="label">Recent Blogs by User</h3>
@@ -112,7 +131,8 @@
 
 
 <script>
-export default {}
+
+
 </script>
 
 <style>

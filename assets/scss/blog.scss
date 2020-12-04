@@ -55,6 +55,66 @@
 }
 
 @media (max-width: 1024px) {
+  .label {
+    font-size: 44px;
+    padding-top: 0;
+    margin-bottom: 26px;
+    letter-spacing: 0.1px;
+  }
+}
+
+@media (max-width: 992px) {
+  .col.right-discription {
+    // flex-direction: column;
+    padding-left: 10px;
+    width: 100%;
+    height: auto;
+  }
+
+  .blog-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .blog-row.revers {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+  }
+
+  .label {
+    font-size: 34px;
+    margin-bottom: 36px;
+  }
+  .discription {
+    padding-top: 8px;
+    font-size: 14px;
+    padding-bottom: 10px;
+    letter-spacing: 0.2px;
+    text-align: left;
+  }
+  .snap {
+    margin-right: 50px;
+    font-size: 12px;
+    width: 122px;
+    height: 55px;
+    line-height: 49px;
+  }
+  .title {
+    font-size: 24px;
+    padding-top: 24px;
+    padding-bottom: 20px;
+  }
+
+  .col {
+    //flex-direction: column;
+    height: auto;
+  }
+  .col.left {
+    width: 100%;
+    height: auto;
+    //flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media (max-width: 767px) {
@@ -71,13 +131,17 @@
   }
   .col.right-discription {
     padding-left: 10px;
+    width: 100%;
+    height: auto;
   }
 
   .col {
     width: 100%;
+    height: auto;
   }
   .col.left {
-    width: 300px;
+    width: 100%;
+    height: auto;
   }
   .label {
     font-size: 30px;
@@ -89,7 +153,7 @@
   .discription {
     line-height: 1.8;
     font-size: 12px;
-    color: rgb(104, 107, 128);
+
     padding-top: 3px;
 
     padding-bottom: 25px;
@@ -98,7 +162,6 @@
     padding-right: 20px;
   }
   .snap {
-    // margin-right: 330px;
     background: none;
     font-size: 13px;
     font-weight: bold;

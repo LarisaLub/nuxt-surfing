@@ -15,7 +15,10 @@ export default {
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
 
-  css: [ "assets/scss/header.scss",
+  css: [ 
+  //"assets/scss/owl.carousel.min.css",
+  //"assets/scss/owl.theme.default.min.css",
+  "assets/scss/header.scss",
   "assets/scss/main.scss",
   "assets/scss/foto_main.scss",
   "assets/scss/slaider.scss",
@@ -26,6 +29,9 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
+    //'@vue-owl-carousel'
+    {src: 'plugins/owl.js', ssr: false} 
+
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -43,6 +49,8 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    //transpile: ['vue-owl-carousel']
+    
   },
 
   styleResources: {
