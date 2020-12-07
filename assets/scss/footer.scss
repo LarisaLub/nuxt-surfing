@@ -64,21 +64,27 @@
     padding-top: 11px;
     padding-bottom: 8px;
     font-size: 18px;
-    padding-left: 80px;
+    padding-left: 220px;
   }
 
   .col.prod {
     flex-direction: column;
     padding-top: 20px;
     text-align: center;
-    padding-right: 40px;
+    //padding-right: 40px;
   }
   .caption {
     padding-top: 16px;
   }
+  .subs {
+    padding-left: 150px;
+  }
+  .produced {
+    padding-left: 200px;
+  }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .wrapper.subscript {
     padding: 0 16px;
   }

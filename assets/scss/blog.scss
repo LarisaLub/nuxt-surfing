@@ -8,6 +8,10 @@
 .col.right-discription {
   padding-left: 80px;
 }
+.photo-blog {
+  width: 100%;
+  height: auto;
+}
 
 .col {
   width: 50%;
@@ -67,7 +71,7 @@
   .col.right-discription {
     // flex-direction: column;
     padding-left: 10px;
-    width: 100%;
+    width: 50%;
     height: auto;
   }
 
@@ -76,7 +80,6 @@
     align-items: center;
   }
   .blog-row.revers {
-    flex-direction: column;
     align-items: center;
     padding-top: 15px;
   }
@@ -88,9 +91,10 @@
   .discription {
     padding-top: 8px;
     font-size: 14px;
+    width: 100%;
     padding-bottom: 10px;
     letter-spacing: 0.2px;
-    text-align: left;
+    text-align: center;
   }
   .snap {
     margin-right: 50px;
@@ -106,18 +110,30 @@
   }
 
   .col {
-    //flex-direction: column;
     height: auto;
+    flex-direction: column;
+    width: 55%;
   }
   .col.left {
-    width: 100%;
+    width: 50%;
     height: auto;
-    //flex-direction: column;
+    flex-direction: column;
     align-items: center;
+  }
+  .snap {
+    margin-left: 130px;
+    margin-bottom: 20px;
+    background: none;
+    font-size: 12px;
+    font-weight: bold;
+    width: 122px;
+    height: 45px;
+
+    line-height: 39px;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 }
 
 @media (max-width: 415px) {

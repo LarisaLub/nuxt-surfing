@@ -39,67 +39,66 @@
             <img class="right second-photo" src="~assets/img/1_2.png" />
        </div>
      </div>
-   </div>
+    </div>
   
   <div class="slaider">
      <h3 class="label slaider">popular instractors</h3>
     <div class="slaider__container-slaider">
         <carousel :autoplay="false" :dots="true" 
-        :responsive="{0:{items:1,nav:false},600:{items:3,nav:true}}" >
-       
+        :responsive="{0:{items:1,nav:false},480:{items:1,nav:true}, 768: {items:2}, 1024: {items: 3}}" >
+        <div class="wrapper-slide">
           <img class="first-foto" src="~assets/img/2_1.png" />
           <p class="name">simon adward</p>
           <p class="quantities">5,000 students</p>
-       
-       
+       </div>
+       <div class="wrapper-slide">
           <img class="second-foto" src="~assets/img/2.png" />
           <p class="name">elliana d'soza</p>
           <p class="quantities">4,350 students</p>
-       
-       
+       </div>
+       <div class="wrapper-slide">
           <img class="third-foto" src="~assets/img/3.png" />
           <p class="name">joseph bardon</p>
           <p class="quantities">3,248 students</p>
-       
-       
+       </div>
+         <div class="wrapper-slide">
           <img class="first-foto" src="~assets/img/2_1.png" />
           <p class="name">simon adward</p>
           <p class="quantities">5,000 students</p>
-       
-       
+       </div>
+       <div class="wrapper-slide">
           <img class="second-foto" src="~assets/img/2.png" />
           <p class="name">elliana d'soza</p>
           <p class="quantities">4,350 students</p>
-       
-       
+       </div>
+       <div class="wrapper-slide">
           <img class="third-foto" src="~assets/img/3.png" />
           <p class="name">joseph bardon</p>
           <p class="quantities">3,248 students</p>
-       
-       
+       </div>
+         <div class="wrapper-slide">
           <img class="first-foto" src="~assets/img/2_1.png" />
           <p class="name">simon adward</p>
           <p class="quantities">5,000 students</p>
-       
-       
+       </div>
+      <div class="wrapper-slide">
           <img class="second-foto" src="~assets/img/2.png" />
           <p class="name">elliana d'soza</p>
           <p class="quantities">4,350 students</p>
-       
-       
+       </div>
+       <div class="wrapper-slide">
           <img class="third-foto" src="~assets/img/3.png" />
           <p class="name">joseph bardon</p>
           <p class="quantities">3,248 students</p>
-       
+       </div>
         </carousel >
-     </div>
-    
     </div>
- <div class="wrapper">
-        <h3 class="label">Recent Blogs by User</h3>
+    </div>
+     <div class="wrapper">
+      <h3 class="label">Recent Blogs by User</h3>
         <div class="blog-row">
           <div class="col">
-            <img src="~assets/img/blog_user1.png" />
+            <img class="photo-blog" src="~assets/img/blog_user1.png" />
           </div>
           <div class="col right-discription">
             <h3 class="title">Lipsum cound be headline</h3>
@@ -116,23 +115,21 @@
             <button class="snap">Read More</button>
           </div>
           <div class="col left">
-            <img src="~assets/img/blog_user2.png" />
+            <img class= "photo-blog" src="~assets/img/blog_user2.png" />
           </div>
         </div>
       </div>
       <section class="enroll">
-       <h3 class="label interes">Aren't you intrested Yet!!</h3>
+        <h3 class="label interes">Aren't you intrested Yet!!</h3>
         <div class="enroll-button" >
         <button class="snap entr">enroll now</button>
         </div>
-    </section>
+      </section>
   </div>
 </template>
 
 
 <script>
-
-
 </script>
 
 <style>

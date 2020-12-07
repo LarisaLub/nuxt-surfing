@@ -107,7 +107,7 @@
   .descript {
     padding-top: 21px;
     font-size: 17px;
-    padding-right: 555px;
+    padding-left: 210px;
     width: 50%;
     letter-spacing: 0.5px;
     line-height: 1.2;
@@ -183,6 +183,7 @@
     padding-top: 21px;
     font-size: 17px;
     padding-left: 255px;
+    padding-right: 55px;
     width: 46%;
     letter-spacing: 0.3px;
     line-height: 1.1;
@@ -242,7 +243,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .inscript {
     font-size: 33px;
     padding-top: 25px;
