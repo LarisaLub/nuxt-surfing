@@ -86,7 +86,7 @@
 .user-text {
   text-transform: capitalize;
   font-size: 37px;
-  padding-right: 40px;
+  padding-left: 80px;
   letter-spacing: 0.3px;
 }
 .right {
@@ -246,14 +246,14 @@
 @media (max-width: 768px) {
   .inscript {
     font-size: 33px;
-    padding-top: 25px;
+    padding-top: 55px;
     padding-right: 30px;
   }
   .descript {
     padding-top: 19px;
     font-size: 15px;
     padding-left: 205px;
-    width: 30%;
+    width: 50%;
     letter-spacing: 0.2px;
     line-height: 1;
   }
@@ -266,13 +266,14 @@
     line-height: 1;
     font-size: 12px;
     padding-top: 8px;
-    padding-right: 55px;
+    padding-right: 0;
   }
 
   .rev {
     padding-top: 10px;
     padding-right: 12px;
     font-size: 20px;
+    padding-bottom: 10px;
   }
   .rev-text {
     display: inline;
@@ -283,13 +284,15 @@
 
   .steve {
     font-size: 8px;
+    padding-right: 50px;
   }
   .mini-line {
     margin-bottom: 22px;
+    margin-left: 120px;
   }
   .comment-symbol {
     top: 0;
-    left: 12px;
+    left: 120px;
     font-size: 35px;
   }
 }
@@ -301,23 +304,19 @@
     padding-right: 30px;
   }
   .descript {
-    padding-top: 19px;
     font-size: 15px;
-    padding-left: 205px;
-    width: 30%;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
     letter-spacing: 0.2px;
     line-height: 1;
   }
-  .box {
-    flex-direction: column;
-    align-items: center;
-    padding-top: 35px;
-  }
+
   .review {
     line-height: 1;
     font-size: 12px;
     padding-top: 8px;
-    padding-right: 55px;
+    padding-right: 0;
   }
 
   .rev {
@@ -326,7 +325,6 @@
     font-size: 20px;
   }
   .rev-text {
-    display: inline;
     padding-left: 15px;
     padding-bottom: 3px;
     letter-spacing: 0.2px;

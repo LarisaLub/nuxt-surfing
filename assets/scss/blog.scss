@@ -76,7 +76,7 @@
   }
 
   .blog-row {
-    flex-direction: column;
+    //flex-direction: column;
     align-items: center;
   }
   .blog-row.revers {
@@ -118,6 +118,7 @@
     width: 50%;
     height: auto;
     flex-direction: column;
+    box-sizing: border-box;
     align-items: center;
   }
   .snap {
@@ -128,18 +129,19 @@
     font-weight: bold;
     width: 122px;
     height: 45px;
-
     line-height: 39px;
   }
 }
 
 @media (max-width: 768px) {
+  .title {
+    padding-left: 24px;
+  }
 }
 
 @media (max-width: 415px) {
   .blog-row {
     align-items: center;
-    flex-flow: column-reverse wrap;
   }
   .blog-row.revers {
     padding-top: 25px;
@@ -150,7 +152,9 @@
     width: 100%;
     height: auto;
   }
-
+  .photo-blog {
+    padding-left: 12px;
+  }
   .col {
     width: 100%;
     height: auto;
@@ -161,7 +165,6 @@
   }
   .label {
     font-size: 30px;
-
     padding-top: 15px;
     margin-bottom: 25px;
     letter-spacing: 0.1px;
@@ -169,30 +172,14 @@
   .discription {
     line-height: 1.8;
     font-size: 12px;
-
-    padding-top: 3px;
-
     padding-bottom: 25px;
-    letter-spacing: 0.5px;
-    text-align: center;
     padding-right: 20px;
-  }
-  .snap {
-    background: none;
-    font-size: 13px;
-    font-weight: bold;
-    width: 72px;
-    height: 25px;
-    color: rgb(104, 107, 128);
-    line-height: 29px;
-    border: 1px solid rgb(192, 192, 197);
   }
   .title {
     font-style: italic;
     font-size: 18px;
-    padding-top: 24px;
+    padding-left: 70px;
     padding-bottom: 5px;
     font-weight: normal;
-    display: inline;
   }
 }
