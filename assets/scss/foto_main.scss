@@ -26,7 +26,7 @@
   line-height: 1.8;
   font-size: 18px;
   padding-top: 38px;
-  padding-right: 109px;
+  padding-right: 79px;
   color: rgb(104, 107, 128);
   position: relative;
 }
@@ -34,13 +34,14 @@
 .rev {
   padding-top: 20px;
   font-weight: normal;
-  padding-right: 92px;
+  text-align: center;
+  padding-right: 80px;
   text-transform: capitalize;
   font-size: 40px;
   color: #3a3838;
 }
 .rev-text {
-  padding-left: 55px;
+  padding-left: 35px;
   padding-bottom: 7px;
   text-align: left;
   letter-spacing: 0.5px;
@@ -51,11 +52,11 @@
   font-size: 18px;
   font-weight: bold;
   color: #585656;
-  padding-right: 140px;
+  padding-left: 70px;
 }
 .mini-line {
   color: #bdb4b4;
-  margin-bottom: 22px;
+  margin-bottom: 8px;
 }
 .comment-symbol {
   top: 0;
@@ -81,12 +82,12 @@
 }
 .user-video {
   padding-top: 25px;
-  padding-left: 4px;
+  padding-left: 74px;
 }
 .user-text {
   text-transform: capitalize;
   font-size: 37px;
-  padding-left: 80px;
+  padding-left: 50px;
   letter-spacing: 0.3px;
 }
 .right {
@@ -288,7 +289,7 @@
   }
   .mini-line {
     margin-bottom: 22px;
-    margin-left: 120px;
+    margin-left: 40px;
   }
   .comment-symbol {
     top: 0;
@@ -328,5 +329,10 @@
     padding-left: 15px;
     padding-bottom: 3px;
     letter-spacing: 0.2px;
+  }
+  .mini-line {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 0;
   }
 }
